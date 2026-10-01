@@ -6,6 +6,34 @@
     <description>FramePair official update channel</description>
     <language>en</language>
     <item>
+      <title>FramePair 0.3.1</title>
+      <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.1</link>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description xml:lang="en" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.1
+
+- Correct photos that are slightly above or below a built-in or custom aspect ratio by cropping excess pixels or repeating edge pixels to fill a small shortfall; previews and JPEG / PNG exports use the same corrected dimensions
+- Auto Crop is now named Auto Ratio Correction, with details showing the cropped or added pixels on each affected edge
+- Remove a source photo using the button at the top-right of its preview; the arrangement picker has its own row
+      ]]></description>
+      <description xml:lang="zh-Hans" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.1
+
+- 接近内置或自定义比例的照片，无论像素略多还是略少，都可通过裁切或边缘像素复制补齐为精确比例；预览与 JPEG / PNG 输出使用一致的校正尺寸
+- Auto Crop 更名为「自动比例校正」，详情分别显示各边实际裁切或补齐的像素
+- 来源照片的移除按钮固定在预览右上角，处理方式选择器独占一行
+      ]]></description>
+      <pubDate>Thu, 01 Oct 2026 16:36:14 +0000</pubDate>
+      <enclosure
+        url="https://github.com/CedricChanning/FramePair/releases/download/v0.3.1/FramePair-0.3.1-macOS-arm64.zip"
+        sparkle:edSignature="8Wwu8a/zSQUWuPW/kFC4RNRgEAqouXLrjIiGvQna0bVbpRl+IAoaCh2KmoF/eaD1KgTz5ruYGjbF9+0prvVPBw=="
+        length="2976590"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>FramePair 0.3</title>
       <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3</link>
       <sparkle:version>11</sparkle:version>
