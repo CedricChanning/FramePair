@@ -2,6 +2,16 @@
 
 [English](#framepair) · [简体中文](#framepair简体中文)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)"
+          srcset="assets/readme/hero-dark.png">
+  <source media="(prefers-color-scheme: light)"
+          srcset="assets/readme/hero-light.png">
+  <img src="assets/readme/hero-light.png"
+       alt="FramePair merges and splits a batch of photos into images ready to share."
+       width="1600">
+</picture>
+
 FramePair is a native photo-arrangement app for Apple Silicon Macs. It turns local photos that have already been edited into finished images suited to portrait viewing on phones and social platforms. A batch can combine JPEG, PNG, and single-image TIFF sources, then export the arranged results in one order as JPEG or lossless PNG.
 
 All processing stays on the Mac. Original photos remain unchanged, and existing files are never silently overwritten. Before export, the final order, filenames, output format, and destination can be reviewed together.
