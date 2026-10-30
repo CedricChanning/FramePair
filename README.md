@@ -12,17 +12,24 @@
        width="1600">
 </picture>
 
-FramePair is a native photo-arrangement app for Apple Silicon Macs. It turns local photos that have already been edited into finished images suited to portrait viewing on phones and social platforms. A batch can combine JPEG, PNG, and single-image TIFF sources, then export the arranged results in one order as JPEG or lossless PNG.
+FramePair is a native photo-arrangement app for Apple Silicon Macs. It turns local photos that have already been edited into finished images for phones and social platforms. A batch can combine JPEG, PNG, and single-image TIFF sources, then export the arranged results in one order as JPEG or lossless PNG.
 
 All processing stays on the Mac. Original photos remain unchanged, and existing files are never silently overwritten. Before export, the final order, filenames, output format, and destination can be reviewed together.
 
-[Download FramePair 0.3.1 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.1/FramePair-0.3.1-macOS-arm64.dmg) · [All releases](https://github.com/CedricChanning/FramePair/releases) · [Report an issue](https://github.com/CedricChanning/FramePair/issues)
+[Download FramePair 0.3.4 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.4/FramePair-0.3.4-macOS-arm64.dmg) · [All releases](https://github.com/CedricChanning/FramePair/releases) · [Report an issue](https://github.com/CedricChanning/FramePair/issues)
 
 ## Core capabilities
 
 - **Mix different arrangements in one batch**
-  - Each photo can use its own arrangement: Direct keeps one photo as one output; Merge 2 and Merge 3 stack two or three photos vertically; Split divides one wide photo at its visual center into consecutive left and right outputs
+  - Each photo can use its own arrangement: Direct keeps one photo as one output; Merge 2 and Merge 3 stack two or three photos vertically; Split produces consecutive left and right outputs from the visual center or a continuous crop chosen in its own editing step
   - Different arrangements can share one batch and continue through the same preview, ordering, naming, and export workflow
+- **Reuse a photo in independent arrangements**
+  - Duplicate Photo creates another workspace entry without copying the source file; each entry can use its own processing mode and Split crop, and entries from the same source can join one Merge
+  - Choose a default processing mode in Settings for newly imported or duplicated entries
+- **Choose a target ratio and adjust Split framing**
+  - Set an optional portrait or landscape output ratio before import, and return to recently used folders from the compact start window
+  - In Split Photos, enable cropping to move or resize one continuous frame whose two halves each match the target ratio; cropping supports reset, keyboard control, and Undo / Redo
+  - Ratio warnings identify results that differ from the target without blocking export; changing the target requires a new batch
 - **Explore the best composition in a dedicated merge view**
   - Merge Photos shows candidate photos and merge results together, with a larger result view for comparing combinations
   - An individual photo can be released and replaced, an empty position can be filled, and the top and bottom photos can exchange positions
@@ -38,12 +45,13 @@ All processing stays on the Mac. Original photos remain unchanged, and existing 
 
 ## Basic workflow
 
-1. Import local JPEG, PNG, or single-image TIFF photos
-2. Choose Direct, vertical Merge, or center Split for each photo
-3. Confirm merge combinations and vertical order in Merge Photos
-4. Check pixel dimensions, aspect ratios, export selection, and final order in Output Preview
-5. Choose JPEG or PNG, filename settings, extension letter case, and the export folder
-6. Review per-file estimates and start the export
+1. Optionally choose a target output ratio, then import local JPEG, PNG, or single-image TIFF photos from a chosen location or a recent folder
+2. Choose Direct, vertical Merge, or Split for each entry; duplicate an entry when the same source is needed again
+3. Confirm merge combinations and vertical order in Merge Photos, when needed
+4. In Split Photos, keep the center split or enable a continuous crop that matches the target ratio
+5. Check pixel dimensions, aspect ratios, export selection, and final order in Output Preview
+6. Choose JPEG or PNG, filename settings, extension letter case, and the export folder
+7. Review per-file estimates and start the export
 
 ## Local processing and file safety
 
@@ -70,7 +78,7 @@ TIFF is an input format only. HDR, Animated PNG, multi-page TIFF, transparent im
 
 ### DMG
 
-1. Download `FramePair-0.3.1-macOS-arm64.dmg`
+1. Download `FramePair-0.3.4-macOS-arm64.dmg`
 2. Open the disk image
 3. Drag `FramePair.app` onto the Applications shortcut
 4. Eject the disk image
@@ -78,7 +86,7 @@ TIFF is an input format only. HDR, Animated PNG, multi-page TIFF, transparent im
 
 ### ZIP
 
-Download and extract `FramePair-0.3.1-macOS-arm64.zip`, then move `FramePair.app` into Applications.
+Download and extract `FramePair-0.3.4-macOS-arm64.zip`, then move `FramePair.app` into Applications.
 
 GitHub also provides automatically generated Source code archives. These contain repository files, not a runnable FramePair application.
 
@@ -96,17 +104,24 @@ This public repository hosts official downloads, release notes, the update feed,
 
 # FramePair（简体中文）
 
-FramePair 是面向 Apple Silicon Mac 的原生照片编排工具，用于将已经完成后期处理的本地照片整理成适合手机与社交平台竖屏浏览的成片。一批照片可以混合使用 JPEG、PNG 与单图 TIFF 来源，完成编排后再按照统一顺序导出为 JPEG 或无损 PNG。
+FramePair 是面向 Apple Silicon Mac 的原生照片编排工具，用于将已经完成后期处理的本地照片整理成适合手机与社交平台浏览的成片。一批照片可以混合使用 JPEG、PNG 与单图 TIFF 来源，完成编排后再按照统一顺序导出为 JPEG 或无损 PNG。
 
 全部处理均在 Mac 本地完成。原照片保持不变，已有文件不会被静默覆盖；导出前可以统一确认结果顺序、文件名、输出格式和目标位置。
 
-[下载 FramePair 0.3.1 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.1/FramePair-0.3.1-macOS-arm64.dmg) · [全部版本](https://github.com/CedricChanning/FramePair/releases) · [反馈问题](https://github.com/CedricChanning/FramePair/issues)
+[下载 FramePair 0.3.4 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.4/FramePair-0.3.4-macOS-arm64.dmg) · [全部版本](https://github.com/CedricChanning/FramePair/releases) · [反馈问题](https://github.com/CedricChanning/FramePair/issues)
 
 ## 核心功能
 
 - **同一批次灵活组合不同处理方式**
-  - 每张照片可以独立选择处理方式：Direct 保持单张输出；Merge 2 与 Merge 3 分别将两张或三张照片上下拼合；Split 从视觉中心将一张宽图分成前后连续的左右两张
+  - 每张照片可以独立选择处理方式：Direct 保持单张输出；Merge 2 与 Merge 3 分别将两张或三张照片上下拼合；Split 从视觉中心拆分，或在独立步骤中选择连续裁剪区域，产生连续的左右两张
   - 不同处理方式可以同时存在于一个批次，最终进入同一套预览、排序、命名和导出流程
+- **为同一照片建立独立处理方案**
+  - Duplicate Photo 会新增工作区条目，不复制磁盘原文件；每个条目可以使用自己的处理方式和 Split 裁剪，同源条目也能参与同一个 Merge
+  - 可在 Settings 选择默认处理方式，用于之后导入或复制的条目
+- **选择目标比例并调整 Split 取景**
+  - 导入前可选择横向或竖向目标输出比例，也可从紧凑启动页返回最近使用的文件夹
+  - 在 Split Photos 主动开启裁剪后，可移动或缩放一个连续框，使左右两格各自符合目标比例；支持重置、键盘操作及 Undo / Redo
+  - 比例提示帮助识别与目标不一致的结果，但不会阻止导出；更换目标比例需要开始新批次
 - **在独立拼合视图中探索最佳组合**
   - Merge Photos 同时显示候选照片与拼合结果，并提供较大的结果视图用于比较不同组合
   - 结果中的单张照片可以释放并重新补入，空缺可以回填，顶部和底部照片也可以交换位置
@@ -122,12 +137,13 @@ FramePair 是面向 Apple Silicon Mac 的原生照片编排工具，用于将已
 
 ## 基本流程
 
-1. 导入本地 JPEG、PNG 或单图 TIFF 照片
-2. 为每张照片选择保持原样、上下拼合或左右拆分
-3. 在 Merge Photos 中确认需要拼合的照片组合与上下顺序
-4. 在 Output Preview 中核对像素、比例、导出范围和最终顺序
-5. 选择 JPEG 或 PNG、文件名、大小写扩展名和导出文件夹
-6. 查看逐文件估算并开始导出
+1. 按需选择目标输出比例，再从所选位置或最近文件夹导入本地 JPEG、PNG 或单图 TIFF 照片
+2. 为每个条目选择保持原样、上下拼合或左右拆分；需要再次使用同一来源时复制条目
+3. 有 Merge 条目时，在 Merge Photos 中确认照片组合与上下顺序
+4. 在 Split Photos 保留居中拆分，或主动开启符合目标比例的连续裁剪
+5. 在 Output Preview 中核对像素、比例、导出范围和最终顺序
+6. 选择 JPEG 或 PNG、文件名、大小写扩展名和导出文件夹
+7. 查看逐文件估算并开始导出
 
 ## 本地处理与文件安全
 
@@ -154,7 +170,7 @@ TIFF 仅作为输入格式，不作为输出格式。HDR、Animated PNG、多页
 
 ### DMG
 
-1. 下载 `FramePair-0.3.1-macOS-arm64.dmg`
+1. 下载 `FramePair-0.3.4-macOS-arm64.dmg`
 2. 打开磁盘映像
 3. 将 `FramePair.app` 拖到「应用程序」快捷方式
 4. 推出磁盘映像
@@ -162,7 +178,7 @@ TIFF 仅作为输入格式，不作为输出格式。HDR、Animated PNG、多页
 
 ### ZIP
 
-下载并解压 `FramePair-0.3.1-macOS-arm64.zip`，再将 `FramePair.app` 移入「应用程序」。
+下载并解压 `FramePair-0.3.4-macOS-arm64.zip`，再将 `FramePair.app` 移入「应用程序」。
 
 GitHub 还会自动提供 Source code 压缩包。这些压缩包只包含仓库文件，不是可运行的 FramePair 应用。
 

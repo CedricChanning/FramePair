@@ -6,6 +6,42 @@
     <description>FramePair official update channel</description>
     <language>en</language>
     <item>
+      <title>FramePair 0.3.4</title>
+      <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.4</link>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>0.3.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description xml:lang="en" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.4
+
+- Start from a compact import window with recent folders and an optional portrait or landscape output ratio; review ratio mismatches before export without blocking it
+- Adjust Split framing in its own step: enable a continuous crop whose two halves match the target ratio, with movement, resizing, reset, keyboard control, and Undo / Redo
+- Reuse a source photo through independent workspace copies, including in the same Merge, and choose a default processing mode for new entries
+- Keep photo grids, window layouts, and previews readable at different window sizes; the four processing choices remain stable during rapid scrolling
+- Recover from import and output-estimate failures, and edit a completed batch to export again with the existing file-safety checks
+- Use File-menu import and export commands, and reorder output groups or operate Merge slots with VoiceOver
+- Use a refreshed app icon with light and dark appearances
+      ]]></description>
+      <description xml:lang="zh-Hans" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.4
+
+- 从紧凑启动页访问最近文件夹，并按需选择横向或竖向目标输出比例；导出前可查看比例差异，提示不会阻止导出
+- 在独立 Split 步骤中调整取景：主动开启连续裁剪，使左右两格各自符合目标比例，支持移动、缩放、重置、键盘操作及 Undo / Redo
+- 通过独立工作区副本复用同一照片，也可将同源条目加入同一个 Merge；新增条目的默认处理方式可在 Settings 配置
+- 改善不同窗口尺寸下的照片网格、布局和预览，快速滚动时四项处理方式保持稳定
+- 导入或输出估算失败后可直接恢复；已完成批次可继续编辑并重新导出，沿用现有文件安全检查
+- 通过 File 菜单导入与导出，使用 VoiceOver 调整输出组顺序和操作 Merge 槽位
+- 更新应用图标，支持明暗外观
+      ]]></description>
+      <pubDate>Fri, 30 Oct 2026 17:28:38 GMT</pubDate>
+      <enclosure
+        url="https://github.com/CedricChanning/FramePair/releases/download/v0.3.4/FramePair-0.3.4-macOS-arm64.zip"
+        sparkle:edSignature="WyiWBvZ4GgUnf0cCL+TrmutsqqumTf0hXYrcWSsBneck4GzYS3rl3zDIrWDCmr2EDY7zvafeOxa1pI0VaMwIBA=="
+        length="3748337"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>FramePair 0.3.1</title>
       <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.1</link>
       <sparkle:version>12</sparkle:version>
