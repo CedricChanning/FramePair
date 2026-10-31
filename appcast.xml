@@ -6,6 +6,34 @@
     <description>FramePair official update channel</description>
     <language>en</language>
     <item>
+      <title>FramePair 0.3.5</title>
+      <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.5</link>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description xml:lang="en" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.5
+
+- Combine two or three photos with the same exact aspect ratio at different pixel sizes by enabling Allow Different Sizes in Merge in General Settings; larger photos are reduced to the smallest size in the group while preserving the full frame
+- Review Downscaled labels in Merge Photos to see each affected photo’s dimensions before and after resizing
+- Apply the setting to the current batch immediately; turning it off asks before ungrouping incompatible merges and keeps same-size merges intact
+      ]]></description>
+      <description xml:lang="zh-Hans" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.5
+
+- 在 General Settings 开启「允许 Merge 使用不同尺寸」后，可将精确同比例、不同像素尺寸的两张或三张照片拼合；较大照片按组内最小尺寸缩小，保留完整画面
+- 在 Merge Photos 通过「已缩小」Label 查看受影响照片及其缩小前后尺寸
+- 设置立即作用于当前批次；关闭时先确认是否解散不兼容组，同尺寸组保持不变
+      ]]></description>
+      <pubDate>Sat, 31 Oct 2026 16:01:23 GMT</pubDate>
+      <enclosure
+        url="https://github.com/CedricChanning/FramePair/releases/download/v0.3.5/FramePair-0.3.5-macOS-arm64.zip"
+        sparkle:edSignature="KMU34R+gc+uSVeMxeBxmZOMzDTOuxjkzXYkSpZm8Z1yyZh+/XaNTA5Tv4dLtgXTJjkbGO9UT6Y18+eeKgTwhCw=="
+        length="3773466"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>FramePair 0.3.4</title>
       <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.4</link>
       <sparkle:version>15</sparkle:version>

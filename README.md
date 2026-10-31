@@ -16,7 +16,7 @@ FramePair is a native photo-arrangement app for Apple Silicon Macs. It turns loc
 
 All processing stays on the Mac. Original photos remain unchanged, and existing files are never silently overwritten. Before export, the final order, filenames, output format, and destination can be reviewed together.
 
-[Download FramePair 0.3.4 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.4/FramePair-0.3.4-macOS-arm64.dmg) · [All releases](https://github.com/CedricChanning/FramePair/releases) · [Report an issue](https://github.com/CedricChanning/FramePair/issues)
+[Download FramePair 0.3.5 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.5/FramePair-0.3.5-macOS-arm64.dmg) · [All releases](https://github.com/CedricChanning/FramePair/releases) · [Report an issue](https://github.com/CedricChanning/FramePair/issues)
 
 ## Core capabilities
 
@@ -33,6 +33,8 @@ All processing stays on the Mac. Original photos remain unchanged, and existing 
 - **Explore the best composition in a dedicated merge view**
   - Merge Photos shows candidate photos and merge results together, with a larger result view for comparing combinations
   - An individual photo can be released and replaced, an empty position can be filled, and the top and bottom photos can exchange positions
+  - Enable Allow Different Sizes in Merge in General Settings to combine photos with the same exact aspect ratio at different pixel sizes; larger photos are reduced to the smallest size in the group while preserving the full frame
+  - The setting is off by default and applies to the current batch immediately; Downscaled labels show affected photos and their dimensions before and after resizing
 - **Track pixel dimensions and aspect ratios throughout the workflow**
   - Source photos, arrangements, and Output Preview continue to show pixel dimensions and reduced aspect ratios for checking the final specification before export
   - Optional Auto Ratio Correction adjusts photos that are only slightly outside a built-in or custom ratio by cropping excess edge pixels or repeating edge pixels to fill a small shortfall, without scaling the original image or changing the source file
@@ -78,7 +80,7 @@ TIFF is an input format only. HDR, Animated PNG, multi-page TIFF, transparent im
 
 ### DMG
 
-1. Download `FramePair-0.3.4-macOS-arm64.dmg`
+1. Download `FramePair-0.3.5-macOS-arm64.dmg`
 2. Open the disk image
 3. Drag `FramePair.app` onto the Applications shortcut
 4. Eject the disk image
@@ -86,7 +88,7 @@ TIFF is an input format only. HDR, Animated PNG, multi-page TIFF, transparent im
 
 ### ZIP
 
-Download and extract `FramePair-0.3.4-macOS-arm64.zip`, then move `FramePair.app` into Applications.
+Download and extract `FramePair-0.3.5-macOS-arm64.zip`, then move `FramePair.app` into Applications.
 
 GitHub also provides automatically generated Source code archives. These contain repository files, not a runnable FramePair application.
 
@@ -108,7 +110,7 @@ FramePair 是面向 Apple Silicon Mac 的原生照片编排工具，用于将已
 
 全部处理均在 Mac 本地完成。原照片保持不变，已有文件不会被静默覆盖；导出前可以统一确认结果顺序、文件名、输出格式和目标位置。
 
-[下载 FramePair 0.3.4 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.4/FramePair-0.3.4-macOS-arm64.dmg) · [全部版本](https://github.com/CedricChanning/FramePair/releases) · [反馈问题](https://github.com/CedricChanning/FramePair/issues)
+[下载 FramePair 0.3.5 DMG](https://github.com/CedricChanning/FramePair/releases/download/v0.3.5/FramePair-0.3.5-macOS-arm64.dmg) · [全部版本](https://github.com/CedricChanning/FramePair/releases) · [反馈问题](https://github.com/CedricChanning/FramePair/issues)
 
 ## 核心功能
 
@@ -125,6 +127,8 @@ FramePair 是面向 Apple Silicon Mac 的原生照片编排工具，用于将已
 - **在独立拼合视图中探索最佳组合**
   - Merge Photos 同时显示候选照片与拼合结果，并提供较大的结果视图用于比较不同组合
   - 结果中的单张照片可以释放并重新补入，空缺可以回填，顶部和底部照片也可以交换位置
+  - 在 General Settings 开启「允许 Merge 使用不同尺寸」后，可拼合精确同比例、不同像素尺寸的照片；较大照片按组内最小尺寸缩小，保留完整画面
+  - 设置默认关闭，修改立即作用于当前批次；「已缩小」Label 显示受影响照片及其缩小前后尺寸
 - **全程掌握像素尺寸与画面比例**
   - 来源照片、编排过程和 Output Preview 持续显示像素尺寸与约分比例，便于在导出前核对成片规格
   - 可选的自动比例校正会将与内置或自定义比例只有轻微偏差的照片校正为精确比例：裁去多余的边缘像素，或复制边缘像素补齐少量不足，不缩放原有画面，也不改变原文件
@@ -170,7 +174,7 @@ TIFF 仅作为输入格式，不作为输出格式。HDR、Animated PNG、多页
 
 ### DMG
 
-1. 下载 `FramePair-0.3.4-macOS-arm64.dmg`
+1. 下载 `FramePair-0.3.5-macOS-arm64.dmg`
 2. 打开磁盘映像
 3. 将 `FramePair.app` 拖到「应用程序」快捷方式
 4. 推出磁盘映像
@@ -178,7 +182,7 @@ TIFF 仅作为输入格式，不作为输出格式。HDR、Animated PNG、多页
 
 ### ZIP
 
-下载并解压 `FramePair-0.3.4-macOS-arm64.zip`，再将 `FramePair.app` 移入「应用程序」。
+下载并解压 `FramePair-0.3.5-macOS-arm64.zip`，再将 `FramePair.app` 移入「应用程序」。
 
 GitHub 还会自动提供 Source code 压缩包。这些压缩包只包含仓库文件，不是可运行的 FramePair 应用。
 
