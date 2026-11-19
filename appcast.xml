@@ -6,6 +6,37 @@
     <description>FramePair official update channel</description>
     <language>en</language>
     <item>
+      <title>FramePair 0.3.6</title>
+      <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.6</link>
+      <sparkle:version>17</sparkle:version>
+      <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description xml:lang="en" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.6
+
+- Photo cards and grids now use consistent layouts, making filenames, pixel dimensions, aspect ratios, and selection easier to scan. Duplicated entries display the original filename.
+- Warnings and information popovers share a consistent layout. Where hover previews are available, you can take a quick look, then click or use the keyboard to keep the details open.
+- Fixed the three-photo Merge preview when card height is limited. An outline highlights the slot selected for filling.
+- Moved the aspect ratio warning and reset button next to the filename in the Split editor. Fixed an issue where cropped previews covered the drag handle used to reorder the two Split results together.
+- Export progress and cancellation now appear in the bottom bar. Estimate and export errors show the cause and let you copy the relevant file paths.
+      ]]></description>
+      <description xml:lang="zh-Hans" sparkle:format="markdown"><![CDATA[
+# FramePair 0.3.6
+
+- 统一照片卡片与网格的布局，让文件名、像素尺寸、画面比例和选中状态更容易辨认。复制后的照片条目显示原始文件名
+- 统一警告与信息详情的样式。支持悬停的详情可快速预览，点击或用键盘打开后会保持展开，方便阅读
+- 修复三图拼合预览在卡片高度受限时的布局问题，并用边框清楚标出当前要填入的槽位
+- 将拆分编辑器的比例提醒和重置按钮移到文件名旁，并修复裁切后的预览遮挡排序手柄的问题。左右两张结果可在输出预览中一起拖动排序
+- 将实时导出进度和取消入口集中到底栏。估算或导出出现问题时，会显示原因及可复制的相关文件路径
+      ]]></description>
+      <enclosure
+        url="https://github.com/CedricChanning/FramePair/releases/download/v0.3.6/FramePair-0.3.6-macOS-arm64.zip"
+        sparkle:edSignature="P0rpiFxiswkSap18qbGaq0S714oRobcRabcUrQYKvlb8I2LaA8ZL5AoUTZz1bAoryyC8f9iIHfjEZpTrTdqhCQ=="
+        length="3811205"
+        type="application/octet-stream" />
+    </item>
+    <item>
       <title>FramePair 0.3.5</title>
       <link>https://github.com/CedricChanning/FramePair/releases/tag/v0.3.5</link>
       <sparkle:version>16</sparkle:version>
